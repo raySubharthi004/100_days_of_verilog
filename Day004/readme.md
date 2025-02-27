@@ -1,4 +1,3 @@
-Here is a well-structured **Markdown (`.md`) file** for a **3:8 Multiplexer** with **theory** and **expressions**:
 
 ---
 
@@ -34,7 +33,7 @@ A **3:8 Multiplexer** has:
 ## **🔢 Boolean Expression**
 The output `Y` of a **3:8 MUX** can be expressed using the selection inputs (`S2, S1, S0`) as:
 
-\[
+
 Y = (D0 \cdot S2' \cdot S1' \cdot S0') +
     (D1 \cdot S2' \cdot S1' \cdot S0) +
     (D2 \cdot S2' \cdot S1 \cdot S0') +
@@ -43,7 +42,7 @@ Y = (D0 \cdot S2' \cdot S1' \cdot S0') +
     (D5 \cdot S2 \cdot S1' \cdot S0) +
     (D6 \cdot S2 \cdot S1 \cdot S0') +
     (D7 \cdot S2 \cdot S1 \cdot S0)
-\]
+
 
 where **`S2'` means NOT S2**, **`S1'` means NOT S1**, and **`S0'` means NOT S0**.
 
@@ -56,4 +55,4 @@ where **`S2'` means NOT S2**, **`S1'` means NOT S1**, and **`S0'` means NOT S0**
 
 ---
 
-This Markdown file provides **detailed theory and expressions** for a **3:8 Multiplexer**. Let me know if you need modifications! 🚀
+This Markdown file provides **detailed theory and expressions** for a **3:8 Multiplexer**. 
