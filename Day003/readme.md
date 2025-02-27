@@ -29,19 +29,6 @@ It produces two outputs:
 | 1 | 1 |  0  |   0    |      1      |
 | 1 | 1 |  1  |   1    |      1      |
 
-### **Circuit Diagram**
- A -----|   \
-        | XOR |----(A ⊕ B)------|   \
- B -----|___/                   | XOR |---- Sum (S)
-                                 |___/ 
- Cin ----|   |
-         | AND |----(A ⊕ B)Cin ---|   |
- (A ⊕ B) |___|                   | OR |---- Carry (Cout)
- A ------|   |                    |___| 
-         | AND |----(A B) --------|
- B ------|___|
-
-
 
 # Full Subtractor
 
@@ -72,15 +59,3 @@ It produces two outputs:
 | 1 | 1 |  0  |      0       |      0       |
 | 1 | 1 |  1  |      1       |      1       |
 
-## ⚡ Circuit Diagram
-
- A -----|   \
-        | XOR |----(A ⊕ B)------|   \
- B -----|___/                   | XOR |---- Difference (D)
-                                 |___/ 
- Bin ----|   |
-         | AND |----(A ⊕ B)Bin ---|   |
- (A ⊕ B) |___|                   | OR |---- Borrow (Bout)
- ~A ------|   |                    |___| 
-          | AND |----(~A B) --------|
- B ------|___|
