@@ -3,4 +3,4 @@
 # Day 1 - Basic logic gates
 # Day 2 - Half adder and  substractor
 # Day 3 - Full adder and substractor with half adder and substractor 
-# Day 4 - Multiplexer 3:8 with enable
+# Day 4 - Multiplexer 
