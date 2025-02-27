@@ -1,16 +1,24 @@
-Today is abput basic logic gates 
+# Basic Logic Gates
 
-( ~ )  --> for not gate 
-( | )  --> for or gate  
-( & )  --> for and gate
-( ^ )  --> for the xor gate
+Today is about basic logic gates:
 
-The initial block is used for initialization in testbenches or sequential circuits (e.g., flip-flops).
-Combinational logic (like basic gates) should be described using always_comb or continuous assignments (assign).
+- `(~)`  → NOT gate  
+- `(|)`  → OR gate  
+- `(&)`  → AND gate  
+- `(^)`  → XOR gate  
 
-to finish your simulation after a certain time use this
+## Important Notes
+
+- The **`initial` block** is used for initialization in **testbenches** or **sequential circuits** (e.g., flip-flops).  
+- **Combinational logic** (like basic gates) should be described using `always_comb` or continuous assignments (`assign`).  
+
+## Ending a Simulation  
+
+To finish your simulation after a certain time, use this:
+
+```verilog
 initial begin
-  #100; // time period of your simulation
+  #100; // Time period of your simulation
   $finish;
 end
 
