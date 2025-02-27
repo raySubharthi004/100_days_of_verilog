@@ -1,0 +1,45 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 27.02.2025 22:02:26
+// Design Name: 
+// Module Name: logic_gate_tb
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module logic_gate_tb;
+
+    logic a , b ;
+    logic [7:0]out; 
+    
+    gates uut(a , b , out);
+    
+    initial  begin
+        a = 0;
+        b = 0;
+     end
+    
+    
+    always #5 a = ~a;
+    always #10 b = ~b;
+    
+    initial begin    
+        #20;
+        $finish;   
+    end
+         
+    
+endmodule
