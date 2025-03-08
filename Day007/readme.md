@@ -22,20 +22,7 @@ The addition operation follows the binary sum formula:
 \]
 
 ### **Carry Computation using Lookahead Carry Logic:**
-Instead of propagating the carry bit sequentially, **carry lookahead logic** is used to precompute the carry bits:
 
-\[
-C_1 = (A_0 \cdot B_0) + ((A_0 \oplus B_0) \cdot C_0)
-\]
-\[
-C_2 = (A_1 \cdot B_1) + ((A_1 \oplus B_1) \cdot C_1)
-\]
-\[
-C_3 = (A_2 \cdot B_2) + ((A_2 \oplus B_2) \cdot C_2)
-\]
-\[
-C_{\text{out}} = (A_3 \cdot B_3) + ((A_3 \oplus B_3) \cdot C_3)
-\]
 
 This approach allows **parallel computation of carry bits**, significantly reducing the overall propagation delay.
 
@@ -69,7 +56,5 @@ Thus, the **Fast Adder** is approximately **twice as fast** as the Ripple Carry 
 ## Conclusion
 This **4-bit Fast Adder** efficiently computes sums using **carry lookahead logic**, significantly reducing delay compared to conventional ripple carry adders. It serves as a fundamental component in high-speed **ALUs, microprocessors, and digital circuits**.
 
----
-**Author:** [Your Name]  
-**Date:** March 2025  
+ 
 
