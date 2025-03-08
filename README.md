@@ -14,3 +14,4 @@
 # Day 12  - Mutiplier (serial multiplier unsigned)
 # Day 13  - Divider (unsigned)
 # Day 14  - Multiplier and divider (signed)
+# Day 15  - Gray to binary and binary to gray
