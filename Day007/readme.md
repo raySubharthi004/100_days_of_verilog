@@ -16,10 +16,8 @@ This Verilog module implements a **4-bit Fast Adder** using **carry lookahead lo
 - **c_out** (1-bit): Carry-out from the most significant bit (MSB).
 
 ## Theory of Operation
-The addition operation follows the binary sum formula:
-\[
-\text{sum}_i = A_i \oplus B_i \oplus C_i
-\]
+
+
 
 ### **Carry Computation using Lookahead Carry Logic:**
 
