@@ -56,20 +56,7 @@ Encoders like this one are commonly used in:
 
 The Verilog implementation uses a combinational logic block (`always_comb`) to define the behavior. This ensures that the output changes immediately when the input changes, without requiring a clock signal.
 
-```verilog
-module encoder(
-    input logic [7:0]inp,
-    output logic [2:0] out 
-);
-    
-    always_comb begin
-        out[0] = inp[1] | inp[3] | inp[5] | inp[7];
-        out[1] = inp[2] | inp[3] | inp[6] | inp[7];
-        out[2] = inp[4] | inp[5] | inp[6] | inp[7];
-    end
-    
-endmodule
-```
+
 
 ## Testing
 
