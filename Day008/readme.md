@@ -1,4 +1,4 @@
-# 8-to-3 Priority Encoder
+# 8-to-3  Encoder
 
 ## Overview
 
