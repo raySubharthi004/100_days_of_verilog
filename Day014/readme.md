@@ -149,30 +149,6 @@ Testing signed arithmetic units requires careful consideration of boundary cases
 4. Division with remainders
 5. Check for overflow conditions
 
-### Example Test Scenarios
-
-```systemverilog
-module signed_arithmetic_tb;
-    // Test values
-    logic signed [7:0] test_values[] = {
-        8'h7F,  // Maximum positive
-        8'h80,  // Minimum negative
-        8'h00,  // Zero
-        8'h01,  // +1
-        8'hFF   // -1
-    };
-    
-    // Test all combinations
-    initial begin
-        foreach (test_values[i]) begin
-            foreach (test_values[j]) begin
-                // Test multiplication and division
-                // Check results...
-            end
-        end
-    end
-endmodule
-```
 
 ## Optimization Techniques
 
