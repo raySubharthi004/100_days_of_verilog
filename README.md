@@ -17,3 +17,4 @@
 # Day 15  - Gray to binary and binary to gray
 # Day 16  - Bcd to binary and binary to bcd(double dabble method)
 # Day 17  - Latches 
+# Day 18  - Flip flop
